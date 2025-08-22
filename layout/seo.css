@@ -1,0 +1,44 @@
+
+    .searchResults {
+        /* display: block!important; */
+        /* width: 600px!important; */
+        margin: 10px!important;
+        font-family: arial, sans-serif!important;
+    }
+
+    .searchResults ul {
+        padding: 0!important;
+        margin: 0!important;
+    }
+
+    .searchResults ul li {
+        list-style-type: none!important;
+    }
+
+    .searchResults ul li a {
+        text-decoration: none!important;
+    }
+
+    .searchResults ul p {
+        margin: 0;
+        font-weight: none!important;
+        font-size: 16px!important;
+    }
+
+    ul p span {
+        color: #555!important;
+        font-size: 16px!important;
+        font-family: arial, sans-serif!important;
+    }
+
+    .searchResultsItem {
+        /* margin: 35px 0!important; */
+    }
+
+    .resultAddr {
+        color: #006600!important;
+        font-weight: none!important;
+        font-family: small arial, sans-serif!important;
+        padding: 0!important;
+        margin: 0!important;
+    }

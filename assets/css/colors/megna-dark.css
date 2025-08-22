@@ -1,0 +1,389 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #272c33;
+
+}
+
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+
+}
+
+/*******************
+/*Top bar
+*******************/
+.topbar {
+  background: #00897b;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover, .topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
+  color: #ffffff !important;
+}
+
+/*******************
+/*General Elements
+*******************/
+
+a {
+  color: #00897b;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.bg-theme {
+  background-color: #00897b !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #00897b;
+  border-color: #00897b;
+}
+
+.right-sidebar .rpanel-title {
+  background: #00897b;
+}
+
+.stylish-table tbody tr:hover, .stylish-table tbody tr.active {
+  border-left: 4px solid #00897b;
+}
+
+.text-themecolor {
+  color: #00897b !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid #00897b;
+  color: #00897b;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: #01c0c8;
+}
+
+/*******************
+/*Buttons
+*******************/
+.btn-themecolor,
+.btn-themecolor.disabled {
+  background: #01c0c8;
+  color: #ffffff;
+  border: 1px solid #01c0c8;
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+  background: #01c0c8;
+  opacity: 0.7;
+  border: 1px solid #01c0c8;
+}
+
+.btn-themecolor.active, .btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+  background: #028ee1;
+}
+
+/*******************
+/*sidebar navigation
+*******************/
+.card-no-border .left-sidebar, .card-no-border .sidebar-nav {
+  background: #272c33;
+}
+
+.mini-sidebar .sidebar-nav {
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+    background: #181c22;
+  }
+}
+
+.sidebar-nav {
+  background: #272c33;
+}
+
+.sidebar-nav ul li a {
+  color: #798699;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+  color: #ffffff;
+}
+
+.sidebar-nav ul li a.active {
+  color: #ffffff;
+}
+
+.sidebar-nav ul li.nav-small-cap {
+  color: #99abb4;
+}
+
+.sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
+  color: #ffffff;
+  /* background: #00897b; */
+}
+
+.sidebar-nav > ul > li.active > a i, .sidebar-nav > ul > li.active:hover > a i {
+  color: #ffffff;
+}
+
+.sidebar-nav > ul > li.active > a:after, .sidebar-nav > ul > li.active:hover > a:after {
+  border-color: #ffffff;
+}
+
+.sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+  color: #ffffff;
+}
+
+.sidebar-nav > ul > li > a i {
+  color: #798699;
+}
+
+.sidebar-nav > ul > li > a.active {
+  font-weight: 400;
+  background: transparent;
+  color: #01c0c8;
+}
+
+.user-profile .profile-text a {
+  color: #798699 !important;
+}
+
+.card-no-border .sidebar-footer {
+  background: #181c22;
+}
+
+.card-no-border .card {
+  border-radius: 4px;
+  background-color: #24262b;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+.text-info {
+  color: #00897b !important;
+}
+
+h1,h2,h3,h4,h5{
+ color: #99abb4;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #181c22;
+}
+
+.table-striped tbody tr:hover {
+  background: #181c22;
+}
+.table-bordered {
+  border: 1px solid #181c22;
+  background-color: #272c33;
+  color: #798699;
+}
+.table-bordered th, .table-bordered td {
+  border: 1px solid #181c22;
+}
+.dataTables_filter label{
+  color: #ffffff!important;
+}
+.text-primary {
+  color: #ffffff !important;
+}
+
+.form-control, .form-control:active, .form-control:focus, .bootstrap-tagsinput{
+  background-color:#272c33;
+  border-color:#798699;
+  color: #798699;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: #272c33;
+}
+
+.card-outline-primary .card-header {
+  background: #00897b;
+  border-color: #00897b;
+}
+.modal-header{
+  background-color:#181c22;
+  color: #ffffff!important;
+ 
+  border-style: none!important;
+}
+.modal{
+ 
+  border-style: none!important;
+}
+
+.modal-body{
+  background: #24262b;
+}
+
+
+.modal-footer{
+  background: #181c22;
+
+}
+.page-wrapper {
+  background: #24262b;
+  padding-bottom: 60px;
+}
+
+.page-titles {
+  background: #181c22;
+  margin: 0 -30px 30px;
+  padding: 15px;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  color: #ffffff!important;
+  border-top: 1px solid rgba(120, 130, 140, 0.13);
+  background: #181c22;
+}
+
+
+.btn-primary ,.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #00897b!important;
+  border-color: #00897b!important;
+  box-shadow: 0 1px 0 rgba(22, 8, 151, 0.15)!important;
+}
+
+
+.sidebar-nav > ul > li > a.active {
+  font-weight: 400;
+  background:transparent;
+  color: #00897b;
+}
+
+
+.left-sidebar {
+  box-shadow: none !important;
+}
+.sidebar-nav>ul>li.active>a,
+.sidebar-nav>ul>li.active:hover>a {
+  color: #ffffff !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #00897b;
+  border-color: #00897b;
+}
+.mini-sidebar .sidebar-nav #sidebarnav>li:hover>a {
+  color: #fff;
+}
+.card-no-border .sidebar-nav>ul>li>a.active {
+  background:transparent;
+  color: #ffffff
+}
+
+.bootstrap-tagsinput .tag {
+ 
+  font-size: small!important;
+  background-color: #00897b;
+  color: #ffffff!important;
+
+  padding-top: 5px!important;
+  padding-bottom: 4px!important;
+  font-family: 'Poppins';
+}
+
+.dtp > .dtp-content > .dtp-date-view > header.dtp-header {
+  background: #00897b;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.3em;
+}
+
+.dtp table.dtp-picker-days tr > td > a.selected {
+  background: #00897b;
+  color: rgb(255, 255, 255);
+}
+
+
+.year-picker-item.active {
+  color: #00897b;
+  font-weight: bold;
+}
+
+
+.year-picker-item:hover {
+  color: #00897b;
+
+}
+
+
+.sub-menu{
+  color:#fff;
+}
+
+.fc .fc-button-primary{
+  background-color: #00897b!important;
+  border-color: transparent!important;
+}
+
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active {
+  background-color:#01534b!important;
+  border-color: transparent!important;
+}
+
+.right-sidebar{
+  background-color: #272c33;
+}

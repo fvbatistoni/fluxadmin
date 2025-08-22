@@ -1,0 +1,313 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+
+/*******************
+/*Top bar
+*******************/
+.topbar {
+  background: #455a64;
+}
+
+.topbar .navbar-header {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+  color: #ffffff !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover, .topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/*******************
+/*General Elements
+*******************/
+a.link:hover, a.link:focus {
+  color: #009efb !important;
+}
+
+.bg-theme {
+  background-color: #009efb !important;
+}
+
+.page-item.active .page-link{
+  background-color: #2f3d4a;
+  border-color: #2f3d4a;
+}
+.page-item.active .page-link:hover{
+  border:1px solid #2f3d4a;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #2f3d4a;
+  border-color: #2f3d4a;
+}
+
+
+.right-sidebar .rpanel-title {
+  background: #009efb;
+}
+
+.stylish-table tbody tr:hover, .stylish-table tbody tr.active {
+  border-left: 4px solid #009efb;
+}
+
+.text-themecolor {
+  color: #009efb !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid #009efb;
+  color: #009efb;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: #009efb;
+}
+
+/*******************
+/*Buttons
+*******************/
+.btn-themecolor,
+.btn-themecolor.disabled {
+  background: #009efb;
+  color: #ffffff;
+  border: 1px solid #009efb;
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+  background: #009efb;
+  opacity: 0.7;
+  border: 1px solid #009efb;
+}
+
+.btn-themecolor.active, .btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+  background: #028ee1;
+}
+
+/*******************
+/*sidebar navigation
+*******************/
+.sidebar-nav {
+  background: #fff;
+}
+
+.sidebar-nav ul li a {
+  color: #607d8b;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+  color: #26c6da;
+}
+
+.sidebar-nav ul li a.active {
+  color: #2f3d4a;
+}
+
+.sidebar-nav ul li.nav-small-cap {
+  color: #99abb4;
+}
+
+.sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
+  color: #2f3d4a;
+  background: #26c6da;
+}
+
+.sidebar-nav > ul > li.active > a i, .sidebar-nav > ul > li.active:hover > a i {
+  color: #2f3d4a;
+}
+
+.sidebar-nav > ul > li.active > a:after, .sidebar-nav > ul > li.active:hover > a:after {
+  border-color: #2f3d4a;
+}
+
+.sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+  color: #2f3d4a;
+}
+
+.sidebar-nav > ul > li > a i {
+  color: #99abb4;
+}
+
+.sidebar-nav > ul > li > a.active {
+  font-weight: 400;
+  background: #2f3d4a;
+  color: #009efb;
+}
+
+
+/*CUSTOM PHP STAFFF*/
+
+.text-themecolor {
+  color: #2f3d4a !important;
+}
+
+.card-outline-primary {
+  border-color: #2f3d4a;
+}
+
+.card-outline-primary .card-header {
+  background: #2f3d4a;
+  border-color: #ffffff;
+}
+
+
+.btn-primary,.btn-primary.disabled {
+  background: #2f3d4a;
+  border: 1px solid #2f3d4a;
+  color: #ffffff;
+}
+
+.btn-primary.disabled:hover,.btn-primary:hover {
+  background: #2f3d4a;
+  opacity: 0.7;
+  color: #ffffff;
+  border: 1px solid #2f3d4a;
+}
+
+.btn-primary.active,.btn-primary.disabled.active,.btn-primary.disabled:focus,.btn-primary:focus {
+  background: #232a37;
+  color: #ffffff;
+}
+
+
+.pagination li a {
+  padding: 5px 10px !important;
+  min-width: 30px;
+  line-height: 1 !important;
+}
+
+
+.sidebar-nav>ul>li.active>a,
+.sidebar-nav>ul>li.active:hover>a {
+  color: #2f3d4a !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.btn-primary ,.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #2f3d4a!important;
+  border-color: #2f3d4a!important;
+  box-shadow: 0 1px 0 rgba(22, 8, 151, 0.15)!important;
+}
+.text-primary {
+  color: #2f3d4a !important;
+}
+.mini-sidebar .sidebar-nav #sidebarnav>li:hover>a {
+
+  color: #2f3d4a!important;
+
+}
+
+.user-profile .profile-text>a {
+
+  color: #fff !important;
+  width: 100%;
+  padding: 12px 30px;
+  background: #232a37;
+  display: block;
+}
+
+
+a {
+  color: #515d63;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #181c22;
+  text-decoration: none;
+}
+
+
+.bootstrap-tagsinput .tag {
+ 
+  font-size: small!important;
+  background-color: #515d63;
+  /* color: #515d63!important; */
+
+  padding-top: 5px!important;
+  padding-bottom: 4px!important;
+  font-family: 'Poppins';
+}
+
+.dtp > .dtp-content > .dtp-date-view > header.dtp-header {
+  background: #181c22;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.3em;
+}
+
+.dtp table.dtp-picker-days tr > td > a.selected {
+  background: #181c22;
+  color: rgb(255, 255, 255);
+}
+
+
+.year-picker-item.active {
+  color: #181c22;
+  font-weight: bold;
+}
+
+
+.year-picker-item:hover {
+  color: #181c22;
+
+}
+
+.sub-menu{
+  color:#607d8b;
+}

@@ -1,0 +1,9 @@
+a:hover {
+    cursor: pointer;
+}
+
+.headerToolbar{
+    width: 100%;
+}
+
+.fc-list-event-time{ text-align: left !important; }
