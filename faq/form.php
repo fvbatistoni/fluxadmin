@@ -13,13 +13,13 @@
     <title>${config_site_title} - ${faq_menu_admin}</title>
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
-    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/dropify/dist/css/dropify.min.css">
     <link href="assets/css/colors/${config_tema_color}.css" id="theme" rel="stylesheet">
-    <link href="assets/plugins/html5-editor/bootstrap-wysihtml5.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/respond.min.js"></script>
@@ -127,7 +127,7 @@
         @(admin.faq.modal-nova)
     </div>
     <script src="assets/plugins/jquery/jquery.min.js"></script>
-    <script src="assets/plugins/popper/popper.min.js"></script>
+    
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slimscroll.js"></script>
     <script src="assets/js/waves.js"></script>
@@ -139,20 +139,20 @@
     <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
     <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="assets/plugins/datatables.net/js/dataTables.rowReorder.min.js"></script>
-    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/jquery.mask.min.js"></script>
     <script src="assets/js/jquery.cookie.js"></script>
     <script src="assets/plugins/moment/moment.js"></script>
     <script src="assets/plugins/moment/pt-br.js"></script>
-    <script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="app-js/datepicker.js"></script>
     <script src="assets/plugins/summernote/dist/summernote-lite.min.js"></script>
     <script src="assets/plugins/summernote/dist/lang/summernote-pt-BR.js"></script>
     <script src="assets/js/vue.min.js"></script>
     <script src="assets/plugins/html5-editor/wysihtml5-0.3.0.js"></script>
-    <script src="assets/plugins/html5-editor/bootstrap-wysihtml5.js"></script>
-    <script src="assets/plugins/html5-editor/bootstrap-wysihtml5.pt-BR.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/select2/dist/js/select2.full.min.js" type="text/javascript"></script>
     <script src="assets/plugins/dropify/dist/js/dropify.min.js"></script>
     <script src="${baseUri}/view/admin/app-js/datatable.js"></script>

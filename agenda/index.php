@@ -17,13 +17,13 @@
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
-    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="agenda/index.css" rel="stylesheet">
     <!--CALENDAR -->
     <link href="assets/plugins/clockpicker/dist/jquery-clockpicker.min.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/dropify/dist/css/dropify.min.css">
     <link href="assets/plugins/fullcalendar/main.css" rel="stylesheet">
     </script>
@@ -322,7 +322,7 @@
     <!-- All Jquery -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="assets/plugins/popper/popper.min.js"></script>
+    
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="assets/js/jquery.slimscroll.js"></script>
@@ -340,7 +340,7 @@
     <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
     <!-- This is data table -->
     <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- start - This is for export functionality only -->
     <script src="assets/plugins/datatables-button/dataTables.buttons.min.js"></script>
     <script src="assets/plugins/datatables-button/buttons.flash.min.js"></script>

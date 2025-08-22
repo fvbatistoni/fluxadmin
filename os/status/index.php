@@ -125,7 +125,7 @@
 <!-- All Jquery -->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap tether Core JavaScript -->
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- slimscrollbar scrollbar JavaScript -->
 <script src="assets/js/jquery.slimscroll.js"></script>
@@ -155,7 +155,7 @@
 <!-- CALENDAR JS -->
 <script src="assets/plugins/moment/moment.js"></script>
 <script src="assets/plugins/moment/pt-br.js"></script>
-<script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- END CALENDAR -->
 <!-- PRINCIPAL JS -->
 <script src="assets/js/vue.min.js"></script>

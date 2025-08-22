@@ -150,7 +150,7 @@
 <!-- All Jquery -->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 <script src="assets/plugins/jquery.mask.min.js"></script>
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.slimscroll.js"></script>
 <script src="assets/js/waves.js"></script>

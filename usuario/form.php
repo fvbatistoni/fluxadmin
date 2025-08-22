@@ -19,7 +19,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
     <!--CALENDAR -->
-    <link href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
@@ -225,7 +225,7 @@
     <!-- All Jquery -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="assets/plugins/popper/popper.min.js"></script>
+    
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <!-- <script src="assets/js/jquery.slimscroll.js"></script> -->
@@ -243,7 +243,7 @@
     <!-- CALENDAR JS -->
     <script src="assets/plugins/moment/moment.js"></script>
     <script src="assets/plugins/moment/pt-br.js"></script>
-    <script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="app-js/datepicker.js"></script>
     <!-- END CALENDAR -->
     <!-- slimscrollbar scrollbar JavaScript -->
@@ -252,7 +252,7 @@
     <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
     <script src="assets/plugins/jquery.mask.min.js"></script>
     <script src="assets/plugins/select2/dist/js/select2.full.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="${baseUri}/view/admin/app-js/main.js"></script>
     <script src="${baseUri}/view/admin/app-js/endereco.js"></script>
     <script src="${baseUri}/view/admin/app-js/validacoes.js"></script>

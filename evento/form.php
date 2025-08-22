@@ -17,7 +17,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
     <!--CALENDAR -->
     <link href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css"
@@ -194,7 +194,7 @@
     @(admin.layout.modal-remove)
 </div>
 <script src="assets/plugins/jquery/jquery.min.js"></script>
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.slimscroll.js"></script>
 <script src="assets/js/waves.js"></script>
@@ -206,10 +206,10 @@
 <script src="assets/js/vue.min.js"></script>
 <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
 <script src="assets/plugins/jquery.mask.min.js"></script>
-<script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/plugins/moment/moment.js"></script>
 <script src="assets/plugins/moment/pt-br.js"></script>
-<script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="app-js/datepicker.js"></script>
 <script src="assets/plugins/summernote/dist/summernote-lite.min.js"></script>
 <script src="assets/plugins/summernote/dist/lang/summernote-pt-BR.js"></script>

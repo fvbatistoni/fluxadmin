@@ -16,11 +16,11 @@
     <title>${config_site_title} - Gestação e uso de medicamentos</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
     <link href="assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="assets/css/colors/${config_tema_color}.css" id="theme" rel="stylesheet">
@@ -244,7 +244,7 @@
     </div>
     @(admin.layout.modal-remove)
     <script src="assets/plugins/jquery/jquery.min.js"></script>
-    <script src="assets/plugins/popper/popper.min.js"></script>
+    
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slimscroll.js"></script>
     <script src="assets/js/waves.js"></script>
@@ -255,11 +255,11 @@
     <script src="assets/plugins/toast-master/js/jquery.toast.js"></script>
     <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="assets/plugins/jquery.mask.min.js"></script>
-    <script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/vue.min.js"></script>
     <script src="assets/plugins/summernote/dist/summernote-lite.min.js"></script>
     <script src="assets/plugins/summernote/dist/lang/summernote-pt-BR.js"></script>
-    <script src="assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/select2/dist/js/select2.full.min.js" type="text/javascript"></script>
     <script src="assets/plugins/dropify/dist/js/dropify.min.js"></script>
     <script src="${baseUri}/view/admin/app-js/datatable.js"></script>

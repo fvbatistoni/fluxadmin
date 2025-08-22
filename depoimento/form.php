@@ -17,8 +17,8 @@
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
-    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <!--CALENDAR -->
     <link href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css"
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/plugins/dropify/dist/css/dropify.min.css">
     <!-- You can change the theme colors from here -->
     <link href="assets/css/colors/${config_tema_color}.css" id="theme" rel="stylesheet">
-    <link href="assets/plugins/html5-editor/bootstrap-wysihtml5.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="assets/plugins/html5shiv.js"></script>
@@ -193,7 +193,7 @@
 </div>
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap tether Core JavaScript -->
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- slimscrollbar scrollbar JavaScript -->
 <script src="assets/js/jquery.slimscroll.js"></script>
@@ -212,8 +212,8 @@
 <!-- This is data table -->
 <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="assets/plugins/datatables.net/js/dataTables.rowReorder.min.js"></script>
-<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
-<script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- start - This is for export functionality only -->
 <script src="assets/plugins/jquery.mask.min.js"></script>
 <script src="assets/js/jquery.cookie.js"></script>
@@ -221,15 +221,15 @@
 <!-- CALENDAR JS -->
 <script src="assets/plugins/moment/moment.js"></script>
 <script src="assets/plugins/moment/pt-br.js"></script>
-<script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="app-js/datepicker.js"></script>
 <!-- CALENDAR -->
 
 <!--TEXTO-->
 <script src="assets/js/vue.min.js"></script>
 <script src="assets/plugins/html5-editor/wysihtml5-0.3.0.js"></script>
-    <script src="assets/plugins/html5-editor/bootstrap-wysihtml5.js"></script>
-    <script src="assets/plugins/html5-editor/bootstrap-wysihtml5.pt-BR.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/plugins/dropify/dist/js/dropify.min.js"></script>
 <script src="${baseUri}/view/admin/app-js/datatable.js"></script>
 <script src="${baseUri}/view/admin/app-js/main.js"></script>

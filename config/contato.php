@@ -11,7 +11,7 @@
     <meta name="author" content="${config_site_author}">
     <meta name="keywords" content="${config_site_keywords}">
     <meta name="author" content="${config_seo_author}">
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="${baseUri}/media/site/${config_site_favicon}">
     <title>${config_site_title} - Contato</title>
@@ -245,7 +245,7 @@
 <!-- All Jquery -->
 <script src="assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap tether Core JavaScript -->
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- slimscrollbar scrollbar JavaScript -->
 <script src="assets/js/jquery.slimscroll.js"></script>
@@ -261,7 +261,7 @@
 <script src="assets/js/custom.min.js"></script>
 <!-- Style switcher -->
 <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
-<script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- PRINCIPAL JS -->
 <script src="assets/js/vue.min.js"></script>
 <script src="assets/plugins/jquery.mask.min.js"></script>

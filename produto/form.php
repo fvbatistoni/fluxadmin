@@ -13,8 +13,8 @@
     <title>${config_site_title} - ${produto_menu_admin}</title>
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
-    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/dropify/dist/css/dropify.min.css">
     <!-- You can change the theme colors from here -->
@@ -179,7 +179,7 @@
     @(admin.produto.modal-novo)
     </div>
     <script src="assets/plugins/jquery/jquery.min.js"></script>
-    <script src="assets/plugins/popper/popper.min.js"></script>
+    
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slimscroll.js"></script>
     <script src="assets/js/waves.js"></script>
@@ -191,8 +191,8 @@
     <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
     <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="assets/plugins/datatables.net/js/dataTables.rowReorder.min.js"></script>
-    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/jquery.mask.min.js"></script>
     <script src="assets/js/jquery.cookie.js"></script>
     <script src="assets/plugins/summernote/dist/summernote-lite.min.js"></script>

@@ -2556,15 +2556,15 @@ textarea.form-control {
   margin-top: 0.25rem;
 }
 
-.form-row {
+.row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px;
 }
 
-.form-row>.col,
-.form-row>[class*="col-"] {
+.row>.col,
+.row>[class*="col-"] {
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -4904,38 +4904,38 @@ input[type="button"].btn-block {
   border-bottom-left-radius: 0;
 }
 
-.input-group-prepend,
-.input-group-append {
+.,
+. {
   display: flex;
 }
 
-.input-group-prepend .btn,
-.input-group-append .btn {
+. .btn,
+. .btn {
   position: relative;
   z-index: 2;
 }
 
-.input-group-prepend .btn:focus,
-.input-group-append .btn:focus {
+. .btn:focus,
+. .btn:focus {
   z-index: 3;
 }
 
-.input-group-prepend .btn+.btn,
-.input-group-prepend .btn+.input-group-text,
-.input-group-prepend .input-group-text+.input-group-text,
-.input-group-prepend .input-group-text+.btn,
-.input-group-append .btn+.btn,
-.input-group-append .btn+.input-group-text,
-.input-group-append .input-group-text+.input-group-text,
-.input-group-append .input-group-text+.btn {
+. .btn+.btn,
+. .btn+.input-group-text,
+. .input-group-text+.input-group-text,
+. .input-group-text+.btn,
+. .btn+.btn,
+. .btn+.input-group-text,
+. .input-group-text+.input-group-text,
+. .input-group-text+.btn {
   margin-left: -1px;
 }
 
-.input-group-prepend {
+. {
   margin-right: -1px;
 }
 
-.input-group-append {
+. {
   margin-left: -1px;
 }
 
@@ -4967,10 +4967,10 @@ input[type="button"].btn-block {
 
 .input-group-lg>.form-control,
 .input-group-lg>.custom-select,
-.input-group-lg>.input-group-prepend>.input-group-text,
-.input-group-lg>.input-group-append>.input-group-text,
-.input-group-lg>.input-group-prepend>.btn,
-.input-group-lg>.input-group-append>.btn {
+.input-group-lg>.>.input-group-text,
+.input-group-lg>.>.input-group-text,
+.input-group-lg>.>.btn,
+.input-group-lg>.>.btn {
   padding: 0.5rem 1rem;
   font-size: 1.09375rem;
   line-height: 1.5;
@@ -4984,10 +4984,10 @@ input[type="button"].btn-block {
 
 .input-group-sm>.form-control,
 .input-group-sm>.custom-select,
-.input-group-sm>.input-group-prepend>.input-group-text,
-.input-group-sm>.input-group-append>.input-group-text,
-.input-group-sm>.input-group-prepend>.btn,
-.input-group-sm>.input-group-append>.btn {
+.input-group-sm>.>.input-group-text,
+.input-group-sm>.>.input-group-text,
+.input-group-sm>.>.btn,
+.input-group-sm>.>.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.76563rem;
   line-height: 1.5;
@@ -4999,22 +4999,22 @@ input[type="button"].btn-block {
   padding-right: 1.75rem;
 }
 
-.input-group>.input-group-prepend>.btn,
-.input-group>.input-group-prepend>.input-group-text,
-.input-group>.input-group-append:not(:last-child)>.btn,
-.input-group>.input-group-append:not(:last-child)>.input-group-text,
-.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
-.input-group>.input-group-append:last-child>.input-group-text:not(:last-child) {
+.input-group>.>.btn,
+.input-group>.>.input-group-text,
+.input-group>.:not(:last-child)>.btn,
+.input-group>.:not(:last-child)>.input-group-text,
+.input-group>.:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group>.:last-child>.input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.input-group>.input-group-append>.btn,
-.input-group>.input-group-append>.input-group-text,
-.input-group>.input-group-prepend:not(:first-child)>.btn,
-.input-group>.input-group-prepend:not(:first-child)>.input-group-text,
-.input-group>.input-group-prepend:first-child>.btn:not(:first-child),
-.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child) {
+.input-group>.>.btn,
+.input-group>.>.input-group-text,
+.input-group>.:not(:first-child)>.btn,
+.input-group>.:not(:first-child)>.input-group-text,
+.input-group>.:first-child>.btn:not(:first-child),
+.input-group>.:first-child>.input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -6079,23 +6079,23 @@ input[type="button"].btn-block {
   border-bottom-left-radius: calc(0.25rem - 0px);
 }
 
-.card-deck {
+.row g-3 {
   display: flex;
   flex-direction: column;
 }
 
-.card-deck .card {
+.row g-3 .card {
   margin-bottom: 15px;
 }
 
 @media (min-width: 576px) {
-  .card-deck {
+  .row g-3 {
     flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px;
   }
 
-  .card-deck .card {
+  .row g-3 .card {
     display: flex;
     flex: 1 0 0%;
     flex-direction: column;
@@ -6360,7 +6360,7 @@ a.badge:focus {
   top: -1px;
 }
 
-.badge-pill {
+.rounded-pill {
   padding-right: 0.6em;
   padding-left: 0.6em;
   border-radius: 10rem;

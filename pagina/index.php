@@ -17,7 +17,7 @@
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/plugins/toast-master/css/jquery.toast.css">
-    <link href="assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet"/>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/plugins/dropify/dist/css/dropify.min.css">
     <!-- You can change the theme colors from here -->
@@ -175,7 +175,7 @@
     @(admin.layout.modal-remove)
 </div>
 <script src="assets/plugins/jquery/jquery.min.js"></script>
-<script src="assets/plugins/popper/popper.min.js"></script>
+
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.slimscroll.js"></script>
 <script src="assets/js/waves.js"></script>
@@ -186,7 +186,7 @@
 <script src="assets/plugins/toast-master/js/jquery.toast.js"></script>
 <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
 <script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/plugins/datatables-button/dataTables.buttons.min.js"></script>
 <script src="assets/plugins/datatables-button/buttons.flash.min.js"></script>
 <script src="assets/plugins/datatables-button/jszip.min.js"></script>
